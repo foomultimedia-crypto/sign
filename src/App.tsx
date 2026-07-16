@@ -17,6 +17,7 @@ import beforeAfterImg from './assets/images/signature_before_after_1784098069811
 import signatureDiffChartImg from './assets/images/signature_diff_chart_1784099012802.jpg';
 import agreementSignatureImg from './assets/images/fountain_pen_signature_1784158367928.jpg';
 import signatureComparisonsImg from './assets/images/signature_comparisons_1784098375364.jpg';
+import signaturePracticeSheetImg from './assets/images/signature_practice_sheet_1784160082725.jpg';
 
 export default function App() {
   // Order Modal state
@@ -188,8 +189,8 @@ export default function App() {
           <div className="p-2 bg-zinc-50 rounded-2xl shadow-md border border-zinc-100 overflow-hidden group max-w-3xl mx-auto">
             <div className="relative rounded-xl overflow-hidden border border-zinc-200/60 bg-white p-1 shadow-inner group/img aspect-[16/10] sm:aspect-[16/11] w-full">
               <img 
-                src={handcraftedImg} 
-                alt="Handwriting worksheets and template guides customized for your signature" 
+                src={signaturePracticeSheetImg} 
+                alt="Handwriting worksheets and template guides customized for your signature, showing step-by-step rewrite methods" 
                 className="w-full h-full object-cover rounded-lg group-hover/img:scale-[1.01] transition-transform duration-700 ease-out"
                 referrerPolicy="no-referrer"
               />
